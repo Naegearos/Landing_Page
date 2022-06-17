@@ -1,0 +1,222 @@
+body{
+
+    background-color: lightgreen;    
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(251, 255, 0);
+    }
+  }
+#header{
+
+    
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+    background-color: #1F2937; 
+}
+#header-img{
+    margin-left: 50px;
+    width: 50px;
+    height:50px;
+}
+#header-text{
+    
+    font-size: 17px;
+    margin-left: 110px;
+    color: white;
+    text-align: center;
+}
+#nav-bar{
+    display:flex;
+    overflow: hidden;
+    float: right;
+    
+}
+
+
+.nav-link{
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav-link:hover{
+    background-color: #ddd;
+    color: black;
+}
+.button1{
+    background-color: #3882F6;
+    padding: 15px 32px;
+    float: left;
+    margin-left: 60px;
+    border-radius: 15px ;
+    font-size: 20px;
+    
+}
+#button2{
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 25% ;
+}
+#div1{
+    
+    height: 400px;
+    background-color: rgb(214, 132, 132);
+    padding-left: 200px;
+    padding-right: 200px;
+}
+#main-title{
+   font-size: 55px;
+   font-weight: bold;
+   color:#F9FAF8;
+}
+.innerdiv{
+    float: left;
+    width:50%;
+    text-align: center;
+    
+}
+#Princeps{
+    height: 300px;
+    width: 400px;
+    
+}
+.emppic{
+    height: 300px;
+    width: 300px;
+    border: 10px solid blue; 
+    border-radius: 5px ; 
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#div2{
+    
+    padding-top: 50px;
+    height: 500px;
+    background-color: rgb(131, 131, 165);
+    padding-left: 200px;
+    padding-right: 200px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+#center-div{
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#tiberius{
+    width:300px;
+    height: 400px;
+    text-align: center;
+    padding-right: 10px;
+    float: left;
+}
+#caligula{
+    width:300px;
+    height: 400px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+#claudius{
+    width:300px;
+    height: 400px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+#nero
+{    
+    width:300px;
+    height: 400px;
+    text-align: center;
+    padding-left: 15px;
+    float: left;
+
+}
+#div3{
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-top: 50px;
+    height: 400px;
+    background-color: #E5E7EB;
+    font-size: 40px;
+    font-style: italic;
+    text-align: center;
+}
+#div4{
+    
+    height: 400px;
+    background-color: rgb(87, 145, 85);
+}
+#div4innerdiv{
+    width: 60%;
+    height: 150px;
+    background-color: mediumblue;
+    margin: auto;
+    top: 50%;
+    transform: translate(0, 50%);
+    padding-left: 40px;
+}
+#lastdivbig{
+    width: 65%;
+    float: left;
+    text-align: left;
+    font-size: 25px;
+    color:white;
+    top: 50%;
+    transform: translate(0, 20%);
+
+    
+}
+#largetext{
+    font-size: 25px;
+    
+}
+#lastdivsmall{
+    width: 35%;
+    float: left;
+    /*
+    top: 50%;
+    
+    transform: translate(0, 50%);
+    margin:auto;
+    
+    text-align: center;
+    */
+    padding: 60px 0;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+#lastdivsmall p{
+    padding-left: 20px;
+    padding-right: 20px;
+    
+} 
+#footer{
+    height:50px;
+    text-align: center;
+    top: 50%;
+    transform: translate(0, 40%);
+}
+.smalltext{
+    font-size: 18px;
+}
